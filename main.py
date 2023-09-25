@@ -45,7 +45,7 @@ flg = True
 while flg:
     # Q/A
     print("\n\n")
-    asked_question = str(input("what is in your mind: ")).lower()
+    asked_question = str(input("O que você tem em mente?: ")).lower()
 
     if (
         "name of the university" in asked_question
